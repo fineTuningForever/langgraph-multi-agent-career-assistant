@@ -1,0 +1,107 @@
+[
+  {
+    "job_id": "job-001",
+    "company": "星河智能",
+    "title": "Java 后端开发实习生",
+    "city": "上海",
+    "description": "参与 AI 应用平台后台服务开发，要求熟悉 Java、Spring Boot、MySQL、Redis，了解 Docker、Linux，具备良好的计算机基础。有 LangChain、RAG、大模型应用开发经验优先。"
+  },
+  {
+    "job_id": "job-002",
+    "company": "知行数据",
+    "title": "AI 应用开发实习生",
+    "city": "杭州",
+    "description": "负责基于大模型的智能问答和工作流系统开发，要求熟悉 Python、FastAPI、向量数据库、Prompt Engineering，了解 LangChain 或 LangGraph，有项目落地经验优先。"
+  },
+  {
+    "job_id": "job-003",
+    "company": "云启科技",
+    "title": "后端研发实习生",
+    "city": "上海",
+    "description": "负责业务系统后端接口开发和性能优化，要求熟悉 Java、MyBatis、MySQL、消息队列，理解常用设计模式。了解 AI Agent、多智能体框架者优先。"
+  },
+  {
+    "job_id": "job-004",
+    "company": "墨云实验室",
+    "title": "LLM 应用工程实习生",
+    "city": "北京",
+    "description": "参与 LLM Agent、RAG、工具调用、工作流编排相关产品研发，要求熟悉 Python、LangGraph、OpenAI API、Prompt 设计，了解检查点、记忆和多 Agent 协作。"
+  },
+  {
+    "job_id": "job-005",
+    "company": "极光云智",
+    "title": "AI Agent 开发实习生",
+    "city": "杭州",
+    "description": "参与 AI Agent 工作流系统开发，要求熟悉 Python、LangGraph、Prompt Engineering、函数调用和 API 集成，具备实际项目经验优先。"
+  },
+  {
+    "job_id": "job-006",
+    "company": "蓝桥互动",
+    "title": "后端开发实习生",
+    "city": "苏州",
+    "description": "参与业务系统接口开发与数据库设计，要求熟悉 Java、Spring Boot、MySQL、Redis，了解 Linux 部署与 Git 协作流程。"
+  },
+  {
+    "job_id": "job-007",
+    "company": "量子帆科技",
+    "title": "大模型应用研发实习生",
+    "city": "上海",
+    "description": "负责大模型问答系统、RAG 和工具调用能力建设，要求熟悉 Python、向量数据库、LangChain 或 LangGraph，有 LLM 应用项目经验优先。"
+  },
+  {
+    "job_id": "job-008",
+    "company": "新枝网络",
+    "title": "Java 后端实习生",
+    "city": "杭州",
+    "description": "参与企业级平台后端服务开发，要求掌握 Java、Spring Boot、MyBatis、MySQL，了解消息队列、缓存和常见设计模式。"
+  },
+  {
+    "job_id": "job-009",
+    "company": "远见智能",
+    "title": "智能体平台研发实习生",
+    "city": "上海",
+    "description": "参与多智能体平台和工作流编排系统开发，要求熟悉 Python、LangGraph、OpenAI API、工具调用、状态管理和检查点机制。"
+  },
+  {
+    "job_id": "job-010",
+    "company": "青禾数据",
+    "title": "AI 应用后端实习生",
+    "city": "南京",
+    "description": "负责 AI 应用平台后端服务和数据接口开发，要求熟悉 Java 或 Python、MySQL、Redis、Docker，了解大模型应用开发者优先。"
+  },
+  {
+    "job_id": "job-011",
+    "company": "灵犀引擎",
+    "title": "LLM Workflow 实习生",
+    "city": "杭州",
+    "description": "参与 LLM Workflow、Agent 协作和任务编排系统研发，要求熟悉 Python、Prompt 设计、LangGraph 或同类框架，了解 checkpoint 和 memory。"
+  },
+  {
+    "job_id": "job-012",
+    "company": "格物智算",
+    "title": "后端研发实习生（AI方向）",
+    "city": "上海",
+    "description": "参与 AI 应用产品后端接口与服务治理建设，要求熟悉 Java、Spring Boot、MySQL、Redis、Docker，了解 RAG、Agent 或大模型应用优先。"
+  },
+  {
+    "job_id": "job-013",
+    "company": "北辰科技",
+    "title": "Python 开发实习生",
+    "city": "北京",
+    "description": "负责内部智能工具和自动化平台开发，要求熟悉 Python、FastAPI、数据库操作和 RESTful API，了解 LangChain、LangGraph 或 Agent 技术优先。"
+  },
+  {
+    "job_id": "job-014",
+    "company": "云舟软件",
+    "title": "AI 产品研发实习生",
+    "city": "深圳",
+    "description": "参与企业知识库问答、RAG 和流程自动化产品研发，要求熟悉 Python、向量检索、Prompt Engineering、OpenAI 兼容接口和基础前后端协作。"
+  },
+  {
+    "job_id": "job-015",
+    "company": "知本未来",
+    "title": "Java / AI 应用实习生",
+    "city": "上海",
+    "description": "参与 Java 后端与 AI 应用结合项目开发，要求掌握 Java、Spring Boot、MySQL、Redis，了解 Python、LangGraph、RAG 或多智能体项目者优先。"
+  }
+]

@@ -1,0 +1,105 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1639 >>
+stream
+BT
+/F1 11 Tf
+1 0 0 1 0 0 Tm
+/F1 20 Tf
+1 0 0 1 56 780 Tm
+(Sample Resume) Tj
+/F1 11 Tf
+/F1 15 Tf
+1 0 0 1 56 736 Tm
+(Basic Information) Tj
+/F1 11 Tf
+1 0 0 1 56 710 Tm
+(- Target Role: Java Backend / AI Application Development Internship) Tj
+1 0 0 1 56 688 Tm
+(- Preferred Cities: Shanghai, Hangzhou) Tj
+/F1 15 Tf
+1 0 0 1 56 656 Tm
+(Tech Stack) Tj
+/F1 11 Tf
+1 0 0 1 56 630 Tm
+(- Java) Tj
+1 0 0 1 56 608 Tm
+(- Spring Boot) Tj
+1 0 0 1 56 586 Tm
+(- MySQL) Tj
+1 0 0 1 56 564 Tm
+(- Redis) Tj
+1 0 0 1 56 542 Tm
+(- Python) Tj
+1 0 0 1 56 520 Tm
+(- LangChain) Tj
+1 0 0 1 56 498 Tm
+(- LangGraph) Tj
+1 0 0 1 56 476 Tm
+(- RAG) Tj
+1 0 0 1 56 454 Tm
+(- Git) Tj
+1 0 0 1 56 432 Tm
+(- Linux) Tj
+/F1 15 Tf
+1 0 0 1 56 400 Tm
+(Project Experience) Tj
+/F1 11 Tf
+/F1 13 Tf
+1 0 0 1 56 374 Tm
+(Intelligent QA Assistant) Tj
+/F1 11 Tf
+1 0 0 1 56 352 Tm
+(- Built a retrieval-augmented QA assistant with LangChain.) Tj
+1 0 0 1 56 330 Tm
+(- Integrated search tools, vector retrieval, and multi-turn memory.) Tj
+1 0 0 1 56 308 Tm
+(- Enabled tool calling for answering user questions automatically.) Tj
+/F1 13 Tf
+1 0 0 1 56 276 Tm
+(LangGraph Learning Project) Tj
+/F1 11 Tf
+1 0 0 1 56 254 Tm
+(- Learned graph orchestration, Command, Send, subgraphs, time travel, and ) Tj
+1 0 0 1 70 232 Tm
+(checkpoint persistence.) Tj
+1 0 0 1 56 210 Tm
+(- Designed AI workflows with state transitions and node collaboration.) Tj
+/F1 15 Tf
+1 0 0 1 56 178 Tm
+(Strengths) Tj
+/F1 11 Tf
+1 0 0 1 56 152 Tm
+(- Solid Java backend foundation.) Tj
+1 0 0 1 56 130 Tm
+(- Experience with LLM application projects.) Tj
+1 0 0 1 56 108 Tm
+(- Strong interest in LangGraph learning and hands-on practice.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001932 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2002
+%%EOF
