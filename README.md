@@ -150,6 +150,10 @@
 - 查看历史快照
 - 查看岗位分析结果和当前轮匹配结果
 
+前端运行截图：
+
+![Frontend Screenshot](./docs/image.png)
+
 ## 本地开发
 
 ### 1. 安装 Python 依赖
