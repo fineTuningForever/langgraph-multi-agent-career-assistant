@@ -47,6 +47,9 @@ def build_fresh_input(
     message: str = DEFAULT_MESSAGE,
     max_optimization_rounds: int = 1,
 ) -> dict[str, Any]:
+    # 这里显式重置 final_report / next_step / strategy_reason，
+    # 是为了避免同一个 thread_id 下重复运行时，
+    # 旧会话的最终报告残留在 checkpoint 里，导致 Supervisor 直接 finish。
     return {
         "messages": [HumanMessage(content=message)],
         "user_goal": user_goal,
@@ -55,6 +58,9 @@ def build_fresh_input(
         "analyses": [],
         "matches": [],
         "shortlist": [],
+        "final_report": "",
+        "next_step": "analyze_jobs",
+        "strategy_reason": "",
         "optimization_round": 0,
         "max_optimization_rounds": max_optimization_rounds,
         "revision_notes": [],

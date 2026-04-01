@@ -1,0 +1,97 @@
+<svg width="1280" height="760" viewBox="0 0 1280 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F5EF"/>
+      <stop offset="1" stop-color="#EEF6F5"/>
+    </linearGradient>
+    <linearGradient id="primary" x1="0" y1="0" x2="260" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="260" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D97706"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow" x="-20" y="-20" width="340" height="160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1L10 6L1 11" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="760" rx="28" fill="url(#bg)"/>
+
+  <text x="60" y="74" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">
+    LangGraph Multi-Agent Career Assistant
+  </text>
+  <text x="60" y="108" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="18">
+    Vue + FastAPI + LangGraph + SQLite checkpoint
+  </text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="160" width="250" height="84" rx="24" fill="url(#primary)"/>
+  </g>
+  <text x="195" y="196" text-anchor="middle" fill="white" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Vue Workbench</text>
+  <text x="195" y="222" text-anchor="middle" fill="#D1FAE5" font-family="Inter, Arial, sans-serif" font-size="14">登录 / 会话 / 上传 / 结果展示</text>
+
+  <g filter="url(#shadow)">
+    <rect x="510" y="160" width="270" height="84" rx="24" fill="url(#primary)"/>
+  </g>
+  <text x="645" y="196" text-anchor="middle" fill="white" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">FastAPI API Layer</text>
+  <text x="645" y="222" text-anchor="middle" fill="#D1FAE5" font-family="Inter, Arial, sans-serif" font-size="14">auth / sessions / analysis / history</text>
+
+  <g filter="url(#shadow)">
+    <rect x="950" y="160" width="250" height="84" rx="24" fill="url(#primary)"/>
+  </g>
+  <text x="1075" y="196" text-anchor="middle" fill="white" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">SQLite Checkpoint</text>
+  <text x="1075" y="222" text-anchor="middle" fill="#D1FAE5" font-family="Inter, Arial, sans-serif" font-size="14">会话状态 / 历史快照 / thread_id</text>
+
+  <path d="M320 202H508" stroke="#4B5563" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M780 202H948" stroke="#4B5563" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="510" y="312" width="270" height="84" rx="24" fill="url(#accent)"/>
+  </g>
+  <text x="645" y="348" text-anchor="middle" fill="white" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Supervisor</text>
+  <text x="645" y="374" text-anchor="middle" fill="#FEF3C7" font-family="Inter, Arial, sans-serif" font-size="14">Command 决策 / 合法性校验 / 状态跳转</text>
+
+  <path d="M645 246V308" stroke="#4B5563" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="110" y="482" width="250" height="86" rx="24" fill="white"/>
+  </g>
+  <text x="235" y="518" text-anchor="middle" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Job Analysis Subgraph</text>
+  <text x="235" y="544" text-anchor="middle" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="14">extract_requirements → position_job</text>
+
+  <g filter="url(#shadow)">
+    <rect x="510" y="482" width="270" height="86" rx="24" fill="white"/>
+  </g>
+  <text x="645" y="518" text-anchor="middle" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Match Subgraph</text>
+  <text x="645" y="544" text-anchor="middle" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="14">score_match → finalize_match</text>
+
+  <g filter="url(#shadow)">
+    <rect x="920" y="482" width="270" height="86" rx="24" fill="white"/>
+  </g>
+  <text x="1055" y="518" text-anchor="middle" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Resume Optimizer</text>
+  <text x="1055" y="544" text-anchor="middle" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="14">低分回路：优化简历并重新匹配</text>
+
+  <path d="M645 396V452" stroke="#4B5563" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M645 440C645 440 485 450 330 482" stroke="#4B5563" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M645 440C645 440 645 450 645 482" stroke="#4B5563" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M645 440C645 440 805 450 920 482" stroke="#4B5563" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="510" y="642" width="270" height="80" rx="24" fill="url(#primary)"/>
+  </g>
+  <text x="645" y="676" text-anchor="middle" fill="white" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Career Coach</text>
+  <text x="645" y="702" text-anchor="middle" fill="#D1FAE5" font-family="Inter, Arial, sans-serif" font-size="14">final_report / shortlist / revision_notes</text>
+
+  <path d="M645 568V638" stroke="#4B5563" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M1055 568C1055 610 925 618 780 670" stroke="#4B5563" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <text x="936" y="630" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="13">整体匹配偏低时进入回路</text>
+  <text x="70" y="726" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="14">
+    Supervisor 使用 Command 做状态更新与跳转；Job Analysis / Match 阶段使用 Send 并行分发；所有状态持久化到 SQLite。
+  </text>
+</svg>

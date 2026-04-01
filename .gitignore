@@ -8,6 +8,8 @@
 # Python cache
 __pycache__/
 *.py[cod]
+.codex_write_test
+.codex_permission_probe
 
 # Virtual environments
 .venv/
@@ -27,8 +29,10 @@ env/
 # Runtime data
 checkpoints/
 data/app_users.json
+frontend/node_modules/
+frontend/dist/
 
-# Local secrets for Streamlit
+# Local app secrets
 .streamlit/secrets.toml
 
 # Logs
